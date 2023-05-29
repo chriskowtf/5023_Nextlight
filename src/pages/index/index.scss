@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.animation_nextlight {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.animation_nextlight svg {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+}
