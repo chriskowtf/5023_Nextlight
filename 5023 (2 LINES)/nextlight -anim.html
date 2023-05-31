@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextlight Animation</title>
+</head>
+
+
+
+
+<body>
+    <!-- STYLE, add to your ELEMENTOR HTML block -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .animation_nextlight {
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .animation_nextlight svg {
+            width: 100%;
+            height: auto;
+            opacity: 0;
+        }
+    </style>
+    <!-- DIV Animation, add to your ELEMENTOR HTML block -->
+    <div class="nextlight-anim" id="nextlight-anim"></div>
+    <!-- SCRIPTS, add to your ELEMENTOR HTML block -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="./js/nextlight-animation.js"></script>
+</body>
+
+</html>
