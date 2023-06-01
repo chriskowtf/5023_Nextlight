@@ -63,7 +63,7 @@ function nextlightAnim() {
       .to("#light4", { duration: 0.5, opacity: 1 }, "<+0.2")
       .to("#light5", { duration: 0.5, opacity: 1 }, "<+0.2")
       .to("#carR", { x: -1950, duration: 6 }, "<-0.4")
-      .to("#light5", { duration: 0.5, opacity: 0.2 }, "<+4.5")
+      .to("#light5", { duration: 0.5, opacity: 0.2 }, "<+5.5")
       .to("#light4", { duration: 0.5, opacity: 0.2 }, "<+0.2")
       .to("#light3", { duration: 0.5, opacity: 0.2 }, "<+0.2")
       .to("#light2", { duration: 0.5, opacity: 0.2 }, "<+0.2")
